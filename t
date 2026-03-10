@@ -58,6 +58,8 @@
     --ServerPills: var(--Primary);
     --ServerFoldersColor: var(--Primary);
     /* ROUNDING */
+    --Rounding: 5px;
+    --AvatarRounding: var(--Rounding);
     /* RGB ADDON */
     --ColorTime: 2s;
     --Color2: rgb(0, 225, 255);
@@ -4562,23 +4564,6 @@ div[class$=folderIconWrapper],
 .wrapper__8436d,
 .wrapperSimple_cc5dd2 {
     border-radius: var(--Rounding);
-}
-
-.avatar_c19a55,
-.avatarBorder__44b0c,
-.avatarUploaderInner-1dBiHs,
-.iconActiveMedium__f34534,
-.avatarWrapper_f89da9,
-.avatarWrapper-3y0KZ1,
-.avatarWrapper-1-5NA0,
-.avatar__c19a55,
-.avatar-b5OQ1N,
-.avatarHintInner_f89da9,
-.avatar-b5OQ1N,
-.avatar__183c2c,
-.avatar-22FtUu,
-.avatar__c19a55 {
-    border-radius: var(--AvatarRounding);
 }
 
 .separator__00943 {
