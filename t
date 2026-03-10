@@ -4567,7 +4567,6 @@ div[class$=folderIconWrapper],
 }
 
 .avatar_c19a55,
-.avatar__44b0c,
 .avatarBorder__44b0c,
 .avatarUploaderInner-1dBiHs,
 .iconActiveMedium__f34534,
@@ -5224,7 +5223,18 @@ div[class$=folderIconWrapper],
     padding-top: 0px !important;
 }
 
+.avatarSpeaking__44b0c {
+    border-radius: var(--Rounding);
+}
 
+.speaking-3K28iH,
+.avatarSpeaking__44b0c,
+.avatarSpeaking__07f91,
+.border__f910d0.speaking_f910d0,
+.border__2f4f7e.speaking__2f4f7e {
+    -webkit-box-shadow: inset 0 0 0 2px var(--ui-success), inset 0 0 0 2px var(--bg-ui);
+    box-shadow: inset 0 0 0 2px var(--ui-success), inset 0 0 0 2px var(--bg-ui);
+}
 
 .option__16eb0:hover {
     background: var(--Primary);
@@ -5395,6 +5405,45 @@ div[class$=folderIconWrapper],
     background: transparent;
 }
 
+.avatar-2OC07D {
+    border-color: transparent;
+    background-color: var(--bg-ui);
+}
+
+.avatarHoverTarget_f89da9 {
+    position: relative;
+}
+
+.avatarWrapperNormal-1tQ3Je:hover .wrapper-1VLyxH>svg div:before {
+    content: " ";
+    z-index: 1;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--Rounding);
+    background: rgb(0 0 0 / 75%);
+}
+
+.avatarWrapperNormal-1tQ3Je .wrapper-1VLyxH>svg {
+    z-index: 1;
+}
+
+.avatarWrapperNormal-1tQ3Je .avatarHint_f89da9 {
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: var(--Rounding);
+}
+
+.wrapper__44b0c>svg>foreignObject,
+foreignObject[mask="url(#svg-mask-avatar-status-round-32)"],
+.avatarHint_f89da9>foreignObject {
+    mask: none;
+    -webkit-mask: none;
+}
 
 div[aria-label="Purple Wizard"]>.userPopoutOuter-3AVBmJ div[class*=profileBadges_]::before {
     content: "";
