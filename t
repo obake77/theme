@@ -58,8 +58,6 @@
     --ServerPills: var(--Primary);
     --ServerFoldersColor: var(--Primary);
     /* ROUNDING */
-    --Rounding: 5px;
-    --AvatarRounding: var(--Rounding);
     /* RGB ADDON */
     --ColorTime: 2s;
     --Color2: rgb(0, 225, 255);
